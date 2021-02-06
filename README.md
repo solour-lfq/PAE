@@ -16,3 +16,5 @@ This paper introduces one method of generating persistent watermark by penetrati
 The idea is to approximate the autoencoder used by the adversary with a collection of shadow autoencoders trained locally.
 
 For details, see the annotations in np2.py.
+
+Dependency: PyTorch, cuda device if avilable.
